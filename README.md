@@ -1,1 +1,2 @@
 # minification-testing
+new
