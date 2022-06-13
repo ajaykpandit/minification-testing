@@ -9,8 +9,6 @@ jobs:
     steps:
       # Checks-out your repository
       - uses: actions/checkout@v2
-        with:
-          ref: ${{ github.ref }}
 
       - name: Minify Action
         uses: anthonyftwang/minify-action@v1.0.1
@@ -19,4 +17,3 @@ jobs:
       - uses: ajaykpandit/minification-testing@v1.0.1
         with:
           commit_message: Minify source code
-          branch: ${{ github.ref }}
