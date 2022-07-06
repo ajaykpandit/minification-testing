@@ -1,2 +1,2 @@
 # minification-testing
-new
+new test
